@@ -1,7 +1,0 @@
-cd ~/preproute-app
-   cat > .gitignore << 'EOF'
-   node_modules/
-   .next/
-   .env.local
-   .DS_Store
-   EOF
