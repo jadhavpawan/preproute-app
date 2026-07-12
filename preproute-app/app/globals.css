@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background-color: #ffffff;
+  color: #374151;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Hairline borders per style guide — no drop shadows anywhere */
+.border-hairline {
+  border-width: 0.5px;
+}
+
+/* Thin pill scrollbars, radius 200px per spec */
+.thin-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #e5e7eb;
+  border-radius: 200px;
+}
+.thin-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
